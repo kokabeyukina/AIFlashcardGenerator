@@ -1,0 +1,104 @@
+{
+    "cards": [
+        {
+            "word": "抽認卡",
+            "example_sentence": "我每天都用抽認卡複習單詞。",
+            "pinyin_reading": "wǒ měi tiān dōu yòng chōu rèn kǎ fù xí dān cí",
+            "word_meanings": ["flashcard", "study card"],
+            "example_sentence_translation": "I review vocabulary every day with flashcards.",
+            "sentence_words": [
+                {
+                    "word": "我",
+                    "meanings": ["I", "me"],
+                    "classifiers": []
+                },
+                {
+                    "word": "每天",
+                    "meanings": ["every day"],
+                    "classifiers": []
+                },
+                {
+                    "word": "都",
+                    "meanings": ["all", "both", "in all cases"],
+                    "classifiers": []
+                },
+                {
+                    "word": "用",
+                    "meanings": ["to use"],
+                    "classifiers": []
+                },
+                {
+                    "word": "抽認卡",
+                    "meanings": ["flashcard", "study card"],
+                    "classifiers": []
+                },
+                {
+                    "word": "複習",
+                    "meanings": ["to review", "to revise"],
+                    "classifiers": []
+                },
+                {
+                    "word": "單詞",
+                    "meanings": ["word", "vocabulary"],
+                    "classifiers": ["個"]
+                }
+            ],
+            "grammar_explanations": [
+                "每天都 is an adverbial phrase meaning \"every day\"; the particle 都 emphasizes that the action happens consistently.",
+                "用…複習 is a verb phrase meaning \"to review using…\"; it shows the tool (抽認卡) employed for the action.",
+                "抽認卡 is a compound noun that functions as the object of 用.",
+                "複習 is a transitive verb that takes the noun 單詞 as its object."
+            ]
+        },
+        {
+            "word": "例句",
+            "example_sentence": "老師給了我們一個例句來練習。",
+            "pinyin_reading": "lǎo shī gěi le wǒ men yī gè lì jù lái liàn xí",
+            "word_meanings": ["example sentence"],
+            "example_sentence_translation": "The teacher gave us an example sentence to practice.",
+            "sentence_words": [
+                {
+                    "word": "老師",
+                    "meanings": ["teacher"],
+                    "classifiers": []
+                },
+                {
+                    "word": "給了",
+                    "meanings": ["gave", "has given"],
+                    "classifiers": []
+                },
+                {
+                    "word": "我們",
+                    "meanings": ["we", "us"],
+                    "classifiers": []
+                },
+                {
+                    "word": "一個",
+                    "meanings": ["one (classifier)"],
+                    "classifiers": ["個"]
+                },
+                {
+                    "word": "例句",
+                    "meanings": ["example sentence"],
+                    "classifiers": []
+                },
+                {
+                    "word": "來",
+                    "meanings": ["to come", "for the purpose of"],
+                    "classifiers": []
+                },
+                {
+                    "word": "練習",
+                    "meanings": ["practice", "exercise"],
+                    "classifiers": []
+                }
+            ],
+            "grammar_explanations": [
+                "給了 is the past‑tense form of give, indicating that the action has been completed.",
+                "一個 is a classifier phrase that quantifies the noun 例句.",
+                "來 + verb (來練習) is a purpose construction meaning \"to practice\"; it shows the intended use of the example sentence.",
+                "例句 is a noun meaning \"example sentence\" and functions as the object of the verb 給了."
+            ]
+        }
+    ]
+}

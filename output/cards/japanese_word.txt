@@ -1,0 +1,2 @@
+<h1 style="font-weight:100">例文</h1><br><br>この本には多くの例文が載っています。|れいぶん<br>example sentence<br><br>この<ruby>本<rt>ほん</rt></ruby>には<ruby>多<rt>おお</rt></ruby>くの<ruby>例文<rt>れいぶん</rt></ruby>が<ruby>載<rt>の</rt></ruby>っています。<br>This book contains many example sentences.<br><br><br><br><br>AI given reading:<br>れいぶん<br>このほんにはおおくのれいぶんがのっています。
+<h1 style="font-weight:100">カード</h1><br><br>このカードはとても高価です。|カード<br>card<br><br>このカードはとても<ruby>高価<rt>こうか</rt></ruby>です。<br>This card is very expensive.<br><br>高価 = expensive; costly<br><br><br>AI given reading:<br>かーど<br>このかーどはとてもこうかです。

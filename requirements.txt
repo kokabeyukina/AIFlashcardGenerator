@@ -1,0 +1,6 @@
+pyperclip
+ollama
+pydantic
+pypinyin
+opencc
+fugashi

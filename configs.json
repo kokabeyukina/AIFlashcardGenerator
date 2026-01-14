@@ -1,0 +1,5 @@
+{
+    "model":"gpt-oss:20b",
+    "think":"medium",
+    "final output path":"./output/cards.txt"
+}

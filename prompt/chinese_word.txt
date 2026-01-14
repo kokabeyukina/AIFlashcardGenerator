@@ -1,0 +1,72 @@
+When given a list of chinese words you will output a json formatted list of cards. One card for word. 
+In the sentence_words item, for each word in the exemple sentence you will give its meanings, and if nescessary, its classifiers.
+In the grammar_explanations item, you will write an explanation for each grammar/expression used in the exemple sentence. 
+If the word given is in simplified chinese give the sentence in simplified chinese, but if its in traditional give the sentence in traditional chinese. Preferably use the traditional method in ambiguous cases.
+
+
+example
+list:
+種類 天氣 自己
+output:
+{
+    "cards":[
+        {
+            "word":"種類",
+            "example_sentence":"這種種類的蝴蝶已經絕種了。",
+            "pinyin_reading":"zhè zhǒng zhǒnglèi de húdié yǐjīng juézhǒng le",
+            "word_meanings":["kind", "type", "species"],
+            "example_sentence_translation":"This kind of butterfly is already extinct.",
+            "sentence_words":[
+                {"word":"這", "meanings":["(pronoun) this"], "classifiers":[]},
+                {"word":"種", "meanings":["classifier for types, kinds, sorts"], "classifiers":[]},
+                {"word":"的", "meanings":["(attributive participle)"], "classifiers":[]},
+                {"word":"蝴蝶", "meanings":["butterfly"], "classifiers":["隻"]},
+                {"word":"已經", "meanings":["already"], "classifiers":[]},
+                {"word":"絕種", "meanings":["extinction"], "classifiers":[]},
+                {"word":"了", "meanings":["(completed action marker)"], "classifiers":[]}
+            ],
+            "grammar_explanations":[
+                "The prefix 的 is normally used to represent possession, but in this case it is acting as an attributive participle, modifying the noun that follows it.",
+                "了 represents a change of state, initiating or ending an action. For example 下雨了 - It started raining (a change from not raining), or 我吃了飯 - I ate (finished eating) a meal."
+            ]
+        },
+        {
+            "word":"天氣",
+            "example_sentence":"如果明天天氣好的話，我就去海邊。",
+            "pinyin_reading":"rúguǒ míngtiān tiānqì hǎo de huà, wǒ jiù qù hǎibiān",
+            "word_meanings":["weather"],
+            "example_sentence_translation":"I'm going to the seaside tomorrow if the weather's nice.",
+            "sentence_words":[
+                {"word":"如果", "meanings":["if", "in case"], "classifiers":[]},
+                {"word":"明天", "meanings":["tomorrow"], "classifiers":[]},
+                {"word":"好", "meanings":["good"], "classifiers":[]},
+                {"word":"的話", "meanings":["if (coming after a conditional clause)"], "classifiers":[]},
+                {"word":"我", "meanings":["I"], "classifiers":[]},
+                {"word":"就", "meanings":["(after a suppositional clause) in that case", "then"], "classifiers":[]},
+                {"word":"去", "meanings":["to go"], "classifiers":[]},
+                {"word":"海邊", "meanings":["coast", "seaside", "seashore", "beach"], "classifiers":[]}
+            ],
+            "grammar_explanations":[
+                "The structure 「如果...的話，就...」is used to express a conditional relationship, essentially meaning 'If... then...'. In this case 的話 is acting as an intensifier, but is often optional. This structure can also be used as「如果...，就...」or「...的話，就...」or「...，就...」."
+            ]
+        },
+        {
+            "word":"自己",
+            "example_sentence":"他們有他們自己的文化。",
+            "pinyin_reading":"tāmen yǒu tāmen zìjǐ de wénhuà",
+            "word_meanings":["oneself", "one's own"],
+            "example_sentence_translation":"They have their own culture.",
+            "sentence_words":[
+                {"word":"他們", "meanings":["they", "them"], "classifiers":[]},
+                {"word":"有", "meanings":["to have"], "classifiers":[]},
+                {"word":"的", "meanings":["(attributive participle)"], "classifiers":[]},
+                {"word":"文化", "meanings":["culture", "civilization"], "classifiers":["個", "種"]}
+            ],
+            "grammar_explanations":[
+                "The use of 他們 twice along with 自己 serves to emphasize the ownership."
+            ]
+        }
+    ]
+}
+
+Give me the output of the list:

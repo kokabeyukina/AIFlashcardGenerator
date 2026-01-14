@@ -1,0 +1,27 @@
+{
+  "cards": [
+    {
+      "word": "例文",
+      "hiragana_reading": "れいぶん",
+      "word_meaning": "example sentence",
+      "example_sentence": "この本には多くの例文が載っています。",
+      "example_sentence_hiragana_reading": "このほんにはおおくのれいぶんがのっています。",
+      "example_sentence_translation": "This book contains many example sentences.",
+      "explanation": []
+    },
+    {
+      "word": "カード",
+      "hiragana_reading": "かーど",
+      "word_meaning": "card",
+      "example_sentence": "このカードはとても高価です。",
+      "example_sentence_hiragana_reading": "このかーどはとてもこうかです。",
+      "example_sentence_translation": "This card is very expensive.",
+      "explanation": [
+        {
+          "word": "高価",
+          "meanings": ["expensive", "costly"]
+        }
+      ]
+    }
+  ]
+}
