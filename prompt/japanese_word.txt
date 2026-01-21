@@ -21,7 +21,7 @@ output:
         {
             "word":"反乱",
             "hiragana_reading":"はんらん",
-            "word_meaning":"miracle",
+            "word_meaning":"rebellion",
             "example_sentence":"反乱が勃発して、鎮圧された",
             "example_sentence_hiragana_reading":"はんらんがぼっぱつして、ちんあつされた",
             "example_sentence_translation":"The rebellion broke out and was suppressed.",
